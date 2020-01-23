@@ -701,8 +701,6 @@ Response objects
 
     .. automethod:: Response.follow
 
-    .. automethod:: Response.follow_all
-
 
 .. _urlparse.urljoin: https://docs.python.org/2/library/urlparse.html#urlparse.urljoin
 
@@ -791,8 +789,6 @@ TextResponse objects
             response.css('p')
 
     .. automethod:: TextResponse.follow
-
-    .. automethod:: TextResponse.follow_all
 
     .. method:: TextResponse.body_as_unicode()
 
